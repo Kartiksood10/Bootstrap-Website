@@ -1,0 +1,16 @@
+/*Media query runs only if input condition is true*/
+
+@media(min-width:768px){
+    .news-input{
+
+        width: 50%;
+    }
+}
+
+body::before{
+
+    display: block;
+    content: '';
+    height: 60px;
+}
+
